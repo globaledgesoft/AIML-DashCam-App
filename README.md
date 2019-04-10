@@ -35,7 +35,7 @@ Below are the items used in the project.
 
 ## Hardware Setup
 
-![Qualcomm Snapdragon HDK image](https://git.globaledgesoft.com/root/QDN_AIML_AndroidApplication/raw/develop/QC_DashCam/app/src/main/res/drawable/snapdragon_hdk.jpg)
+![Qualcomm Snapdragon HDK image](https://github.com/globaledgesoft/AIML-DashCam-App/blob/master/app/src/main/res/drawable/snapdragon_hdk.jpg)
 
 
 ## Steps to Run the Application
@@ -50,6 +50,6 @@ QC_DashCam application opens a camera preview, collects all the frames and conve
 The application is customized for detection of bicycle, motorbike, bus, car and person only. 
 
 ## Screenshot of the application
-<img src="https://git.globaledgesoft.com/root/QDN_AIML_AndroidApplication/raw/542efbd36bad1d54e9c6f857f10b7e91eb2bad44/QC_DashCam/app/src/main/res/drawable/sample_predic_img.png" width="250">
+<img src="https://github.com/globaledgesoft/AIML-DashCam-App/blob/master/app/src/main/res/drawable/sample_predic_img.png" width="250">
 
 
