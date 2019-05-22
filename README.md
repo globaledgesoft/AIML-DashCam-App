@@ -59,4 +59,4 @@ Below are the items used in the project.
 * Search the GESL_DashCam in the app menu and launch the application
 
 ## Screenshot of the application
-![sample Screenshot of the application](https://github.com/globaledgesoft/AIML-DashCam-App/blob/master/app/src/main/res/drawable/sample_predic_img.png)
+<a href="url"><img src="https://github.com/globaledgesoft/AIML-DashCam-App/blob/master/app/src/main/res/drawable/sample_predic_img.png" align="left" height="640" width="360" ></a>
