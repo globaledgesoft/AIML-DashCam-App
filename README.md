@@ -35,8 +35,7 @@ Below are the items used in the project.
 
 ## Hardware Setup
 
-![Qualcomm Snapdragon HDK image](QC_DashCam/app/src/main/res/drawable/snapdragon_hdk.jpg)
-
+![Qualcomm Snapdragon HDK image](https://github.com/globaledgesoft/AIML-DashCam-App/blob/master/app/src/main/res/drawable/snapdragon_hdk.jpg)
 
 ## How does it work?
 QC_DashCam application opens a camera preview, collects all the frames and converts them to bitmap. The network is built via  Neural Network builder by passing caffe_mobilenet.dlc as the input. The bitmap is then given to the model for inference, which returns object prediction and localization of the respective object.
@@ -54,10 +53,10 @@ Below are the items used in the project.
 * Switch on the display and choose the USB connection option to File Transfer
 * Check if ABD is installed in the windows/linux device, if not follow the below instructions in the below link to install
 	https://developer.android.com/studio/command-line/adb.html.
-* Use the below command to install the apk the connected device with help of abd. [Download APK(Debug)](QC_DashCam/app/build/outputs/apk/debug)
+* Use the below command to install the apk the connected device with help of abd. [Download APK(Debug)](https://github.com/globaledgesoft/AIML-DashCam-App/blob/master/app/build/outputs/apk/debug)
 
 	$ adb install app-debug.apk
 * Search the GESL_DashCam in the app menu and launch the application
 
 ## Screenshot of the application
-<img src="QC_DashCam/app/src/main/res/drawable/sample_predic_img.png" widht=640 height=360 />
+![sample Screenshot of the application](https://github.com/globaledgesoft/AIML-DashCam-App/blob/master/app/src/main/res/drawable/sample_predic_img.png)
