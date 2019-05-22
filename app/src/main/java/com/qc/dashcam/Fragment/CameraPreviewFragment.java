@@ -413,8 +413,14 @@ public class CameraPreviewFragment extends Fragment implements
         if (mSnpeHelper == null) {
             // load the neural network for object detection with SNPE
             mSnpeHelper = new SNPEHelper(getActivity().getApplication());
-            mNetworkLoaded = mSnpeHelper.loadMobileNetSSDFromAssets();
-            Logger.d(TAG, " ensureNetCreated  " + mNetworkLoaded);
+            new Thread() {
+                public void run() {
+                    mNetworkLoaded = mSnpeHelper.loadMobileNetSSDFromAssets();
+                    Logger.d(TAG, " ensureNetCreated  " + mNetworkLoaded);
+                }
+            }.start() ;
+
+
         }
         return mNetworkLoaded;
     }

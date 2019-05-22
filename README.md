@@ -35,21 +35,28 @@ Below are the items used in the project.
 
 ## Hardware Setup
 
-![Qualcomm Snapdragon HDK image](https://git.globaledgesoft.com/root/QDN_AIML_AndroidApplication/raw/develop/QC_DashCam/app/src/main/res/drawable/snapdragon_hdk.jpg)
-
-
-## Steps to Run the Application
-* Firstly set up the hardware as shown in the image below
-* Power on the Snapdragon HDK board
-* Connect  board to your development machine with a USB cable
-* Switch on the display and choose the USB connection option to File Transfer
-* Open terminal and install QC_DashCam.apk using adb command- adb install qc_dashCam.apk
+![Qualcomm Snapdragon HDK image](https://github.com/globaledgesoft/AIML-DashCam-App/blob/master/app/src/main/res/drawable/snapdragon_hdk.jpg)
 
 ## How does it work?
 QC_DashCam application opens a camera preview, collects all the frames and converts them to bitmap. The network is built via  Neural Network builder by passing caffe_mobilenet.dlc as the input. The bitmap is then given to the model for inference, which returns object prediction and localization of the respective object.
 The application is customized for detection of bicycle, motorbike, bus, car and person only. 
 
+## Instructions to install the application on Board
+Below are the items used in the project.
+(The appication can be built from the scratch or can use the apk in 
+
+
+## Steps to Install and Run the Application
+* Firstly set up the hardware as shown above in the Hardware Setup section
+* Power on the Snapdragon HDK board
+* Connect the Dev-Board/Android phone via usb to the device
+* Switch on the display and choose the USB connection option to File Transfer
+* Check if ABD is installed in the windows/linux device, if not follow the below instructions in the below link to install
+	https://developer.android.com/studio/command-line/adb.html.
+* Use the below command to install the apk the connected device with help of abd. [Download APK(Debug)](https://github.com/globaledgesoft/AIML-DashCam-App/blob/master/app/build/outputs/apk/debug)
+
+	$ adb install app-debug.apk
+* Search the GESL_DashCam in the app menu and launch the application
+
 ## Screenshot of the application
-<img src="https://git.globaledgesoft.com/root/QDN_AIML_AndroidApplication/raw/542efbd36bad1d54e9c6f857f10b7e91eb2bad44/QC_DashCam/app/src/main/res/drawable/sample_predic_img.png" width="250">
-
-
+<a href="url"><img src="https://github.com/globaledgesoft/AIML-DashCam-App/blob/master/app/src/main/res/drawable/sample_predic_img.png" align="left" height="640" width="360" ></a>
