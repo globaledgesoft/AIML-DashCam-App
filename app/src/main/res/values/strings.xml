@@ -1,4 +1,4 @@
 <resources>
-    <string name="app_name">QC_DashCam</string>
+    <string name="app_name">GESL_DashCam</string>
     <string name="toast_camera_permission">Camera permission is required for this app</string>
 </resources>

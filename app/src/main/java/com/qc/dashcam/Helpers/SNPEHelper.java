@@ -63,7 +63,7 @@ public class SNPEHelper {
 
     /* MobileNet-SSD Specific */
 
-    private static final String MNETSSD_MODEL_ASSET_NAME = "caffe_mobilenet.dlc";
+    private static final String MNETSSD_MODEL_ASSET_NAME = "object_detect.dlc";
     private static final String MNETSSD_INPUT_LAYER = "data";
     private static final String MNETSSD_OUTPUT_LAYER = "detection_out";
     private static final boolean MNETSSD_NEEDS_CPU_FALLBACK = true;
@@ -196,7 +196,7 @@ public class SNPEHelper {
                     .setDebugEnabled(false)
                     .setOutputLayers(outputLayerNames)
                     .setModel(assetInputStream, assetInputStream.available())
-                    .setPerformanceProfile(NeuralNetwork.PerformanceProfile.HIGH_PERFORMANCE)
+                    .setPerformanceProfile(NeuralNetwork.PerformanceProfile.DEFAULT)
                     .setRuntimeOrder(selectedRuntime) // Runtime.DSP, Runtime.GPU_FLOAT16, Runtime.GPU, Runtime.CPU
                     .setCpuFallbackEnabled(needsCpuFallback)
                     .build();
