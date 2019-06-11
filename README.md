@@ -1,9 +1,9 @@
-# QC DashCam
+# DashCam
 
 The project is designed to utilize the Qualcomm Neural Processing SDK, a deep learning software from Qualcomm Snapdragon Platforms for Object Detection in Android platform. The Android Application  uses any built-in/connected  camera to capture the objects on roads and use Machine Learning model to get the prediction/inference and location of the respective objects.
 
 ## Pre-requisites
-* Before starting the Android application, please follow the instructions for setting up SNPE using the link provided.
+* Before starting the Android application, please follow the instructions for setting up Neural Processing SDK using the link provided.
 	https://developer.qualcomm.com/docs/snpe/setup.html. 
 * Android device 6.0 and above which uses below mentioned Snapdragon processors/Snapdragon HDK with display can be used to test the application
 
